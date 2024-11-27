@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #0e0707;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #142ea3;
+    --foreground: #080808;
+  }
+} */
+
+
+body {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+  background-color:#e0d4d4;
+  }
+  .example-global-css {
+    color: rgb(170, 33, 33);
+  }
+  [data-testid="right-icon"] {
+    pointer-events: unset;
+  }
